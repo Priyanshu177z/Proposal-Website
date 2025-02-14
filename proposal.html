@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom:30px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .no {
+            background-color: #f44336;
+            color: white;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <img src="https://source.unsplash.com/300x300/?couple,love" alt="Loving Couple">
+    <h1>प्रांजल राजपूत</h1>
+    <p>मेरे बालकों की माँ बनोगी क्या? बोलो हाँ की हाँ!</p>
+    <button class="yes" onclick="alert('तुमने हाँ कहा! 🥰 मैं दुनिया का सबसे खुश इंसान हूँ!')">हाँ</button>
+    <button class="no" onclick="alert('कोई और ऑप्शन नहीं है, सोच लो फिर से!')">ना</button>
+</body>
+</html>
